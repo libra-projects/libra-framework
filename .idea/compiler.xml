@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="libra-core_main" target="1.8" />
+      <module name="libra-core_test" target="1.8" />
+      <module name="libra-example_main" target="1.8" />
+      <module name="libra-example_test" target="1.8" />
+      <module name="libra-framework_main" target="1.8" />
+      <module name="libra-framework_test" target="1.8" />
+      <module name="libra-web_main" target="1.8" />
+      <module name="libra-web_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
