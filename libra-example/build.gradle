@@ -14,9 +14,12 @@ dependencies {
 	compile project(":libra-web")
 
     compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+
+
+    //database
     compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.1")
     compile group: 'mysql', name: 'mysql-connector-java'
 
-    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 

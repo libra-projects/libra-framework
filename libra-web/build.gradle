@@ -1,0 +1,9 @@
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+    //freemark
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-freemarker', version: '1.5.6.RELEASE'
+    //devtool
+    compile("org.springframework.boot:spring-boot-devtools")
+    //junit
+    testCompile "junit:junit:4.11"
+}
